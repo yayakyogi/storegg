@@ -6,7 +6,7 @@ import { FormatRupiah } from "../../../utils";
 const TransactionDetails = () => {
   return (
     <>
-      <div className="bg-white w-full 2xl:w-3/4 rounded-2xl p-7 shadow-sm">
+      <div className="bg-white w-full 2xl:w-3/4 rounded-2xl p-2 lg:p-7 shadow-sm">
         <ItemDetail
           imageUrl={ImageTable}
           gameType="Mobile"
@@ -50,7 +50,7 @@ const TransactionDetails = () => {
         <Button
           type="primary"
           onClickAction={() => console.log("WhatsApp Admin")}
-          className="px-20 py-3 font-medium text-lg w-full xl:w-auto"
+          className="px-20 py-3 font-medium text-sm lg:text-lg w-full xl:w-auto"
           style={{ marginTop: 30 }}
         >
           WhatsApp ke Admin

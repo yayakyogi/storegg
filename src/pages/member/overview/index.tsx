@@ -9,7 +9,7 @@ const Overview = () => {
   return (
     <>
       <MemberTemplate>
-        <div className="pr-60">
+        <div className="pr-0 2xl:pr-60">
           <Text
             type="fs-32"
             weight="bold"

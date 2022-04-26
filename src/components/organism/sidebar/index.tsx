@@ -15,7 +15,7 @@ const Sidebar = () => {
   ];
   return (
     <>
-      <div className="fixed z-10 h-screen w-80 bg-white shadow-sm">
+      <div className="sidebar fixed z-10 transition ease-in-out duration-500 h-screen w-0 lg:overflow-hidden overflow-y-scroll lg:w-80 bg-white shadow-sm">
         {/* User info */}
         <div className="px-16 pb-10 pt-14">
           <SidebarUser

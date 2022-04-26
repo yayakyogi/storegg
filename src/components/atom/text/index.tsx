@@ -28,19 +28,19 @@ const Text = ({ type, weight, text, color, style }: TextProps) => {
       className.push("text-sm");
       break;
     case "fs-18":
-      className.push("text-lg");
+      className.push("text-sm lg:text-lg");
       break;
     case "fs-20":
-      className.push("text-xl");
+      className.push("text-lg lg:text-xl");
       break;
     case "fs-22":
-      className.push("text-2xl");
+      className.push("text-xl lg:text-2xl");
       break;
     case "fs-32":
-      className.push("text-3xl");
+      className.push("text-2xl lg:text-3xl");
       break;
     case "fs-42":
-      className.push("text-4xl");
+      className.push("text-3xl lg:text-4xl");
       break;
     default:
       className.push("text-base");

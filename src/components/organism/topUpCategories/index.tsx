@@ -23,7 +23,7 @@ const TopUpCategories = ({
           color="black"
           style={{ marginBottom: 30 }}
         />
-        <div className="flex justify-between items-center mb-8">
+        <div className="flex flex-wrap justify-between items-center mb-8">
           <ItemSpent
             type="Dekstop"
             imageUrl={Icon1}

@@ -10,8 +10,8 @@ interface ItemSpentProps {
 const ItemSpent = ({ imageUrl, type, totalSpent }: ItemSpentProps) => {
   return (
     <>
-      <div className="py-7 px-7 w-96 bg-white rounded-2xl shadow-sm">
-        <div className="flex justify-start items-center mb-7">
+      <div className="py-7 px-7 w-full md:w-96 bg-white rounded-2xl shadow-sm mb-3">
+        <div className="flex justify-start items-center mb-3 lg:mb-7">
           <Image type="imageIcon" url={imageUrl} alt="icon" />
           <div className="ml-3">
             <Text type="fs-16" weight="regular" text="Game" color="black" />

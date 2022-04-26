@@ -63,7 +63,7 @@ const Settings = () => {
           color="black"
           style={{ marginBottom: 30 }}
         />
-        <div className="w-full lg:w-3/4 xl:w-5/12 bg-white p-10 rounded-xl shadow-sm">
+        <div className="w-full lg:w-3/4 xl:w-5/12 bg-white px-2 py-5 lg:p-10 rounded-xl shadow-sm">
           <div className="flex items-center mb-5">
             <div
               className="relative"
@@ -114,6 +114,11 @@ const Settings = () => {
                   : "border border-grey"
               }`}
             />
+            {emailError !== "" && data.email.length > 1 && (
+              <span className="text-red font-medium text-sm block mb-4">
+                {emailError}
+              </span>
+            )}
             <InputText
               type="text"
               label="Phone Number"
@@ -130,13 +135,10 @@ const Settings = () => {
                   : "border border-grey"
               }`}
             />
-            {emailError !== "" && data.email.length > 1 && (
-              <p className="text-red font-medium text-sm">{emailError}</p>
-            )}
             <Button
               type="submit"
               isBlock
-              className="px-5 py-4 bg-purple text-white mt-8"
+              className="px-5 py-3 lg:py-4 bg-purple text-white mt-5 lg:mt-8"
             >
               Save my profile
             </Button>

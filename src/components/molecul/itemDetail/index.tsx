@@ -17,7 +17,7 @@ const ItemDetail = ({
   status,
 }: ItemDetailProps) => {
   const classStatus = [
-    "w-32 text-center py-2 rounded-full bg-opacity-30 font-medium",
+    "mt-3 lg:mt-0 w-32 text-center py-1 lg:py-2 rounded-full bg-opacity-30 font-medium",
   ];
   if (status.toLowerCase() === "failed") classStatus.push("bg-red text-red");
   if (status.toLowerCase() === "pending")
@@ -27,14 +27,14 @@ const ItemDetail = ({
 
   return (
     <>
-      <div className="flex justify-between items-center" style={style}>
-        <div className="flex items-center">
+      <div className="block lg:flex justify-between items-center" style={style}>
+        <div className="flex flex-wrap items-center">
           <Image
             url={imageUrl}
             type="imageDetailTransaction"
             alt="table image"
           />
-          <div className="ml-4 max-w-[300px]">
+          <div className="mt-3 lg:mt-0 lg:ml-4 lg:max-w-[300px]">
             <Text
               type="fs-20"
               weight="bold"
