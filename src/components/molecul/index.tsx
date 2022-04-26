@@ -4,6 +4,8 @@ import SidebarMenu from "./sidebarMenu";
 import ItemSpent from "./itemSpent";
 import ItemTable from "./itemTable";
 import ButtonFilter from "./buttonFilter";
+import ItemDetail from "./itemDetail";
+import ItemDetailLabel from "./itemDetailLabel";
 
 export {
   SidebarUser,
@@ -12,4 +14,6 @@ export {
   ItemSpent,
   ItemTable,
   ButtonFilter,
+  ItemDetail,
+  ItemDetailLabel,
 };

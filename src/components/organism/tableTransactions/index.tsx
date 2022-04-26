@@ -109,7 +109,8 @@ const TableTransactions = ({ type }: TableTransactionsProps) => {
                 {type === "table-transactions" && (
                   <td className="text-center">
                     <Button
-                      type="secondary"
+                      type="link"
+                      href="/details/GG001"
                       onClickAction={() => console.log("action")}
                       className="py-2 px-8 bg-gray2 text-sm"
                     >

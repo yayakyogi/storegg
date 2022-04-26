@@ -3,6 +3,7 @@ import { TextProps } from "./interface";
 const Text = ({ type, weight, text, color, style }: TextProps) => {
   const className = [];
 
+  color === "purple" && className.push("text-purple");
   color === "black"
     ? className.push("text-black")
     : className.push("text-grey");

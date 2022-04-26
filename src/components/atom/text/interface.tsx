@@ -10,7 +10,7 @@ type fontType =
   | "fs-32"
   | "fs-42";
 type weightType = "regular" | "medium" | "bold";
-type colorType = "black" | "grey";
+type colorType = "black" | "grey" | "purple";
 
 export interface TextProps {
   type?: fontType;
