@@ -1,0 +1,22 @@
+body{
+  margin: 0;
+  background-color: #FBFCFD;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+}
+
+/* style for sidebar icon */
+.active a,
+.active :hover a{
+    color: #0C145A;
+    font-weight: 500;
+}
+
+.active > svg path,
+.active :hover > svg path{
+    transition: all 0.2s linear;
+    stroke: #4D17E2;
+}
