@@ -112,7 +112,7 @@ const TableTransactions = ({ type }: TableTransactionsProps) => {
                       type="link"
                       href="/details/GG001"
                       onClickAction={() => console.log("action")}
-                      className="py-2 px-8 bg-gray2 text-sm"
+                      className="py-2 px-8 bg-gray2 text-sm rounded-full"
                     >
                       Destails
                     </Button>

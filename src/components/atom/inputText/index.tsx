@@ -11,7 +11,7 @@ const InputText = ({
   className,
 }: TextinputProps) => {
   const classNames = [
-    "px-6 py-2 bg-white shadow rounded-full w-full placeholder:text-base border focus:outline-none border focus:border-2 mb-1",
+    "px-6 py-3 bg-white shadow rounded-full w-full placeholder:text-base border focus:outline-none mb-3",
     className,
   ];
 
