@@ -10,7 +10,7 @@ const MemberTemplate = ({ children }: MemberTemplateProps) => {
     <>
       <div className="flex justify-start">
         <Sidebar />
-        <div className="py-12 ml-80 pl-12 pr-60 w-full flex-1">{children}</div>
+        <div className="py-12 ml-80 px-12 w-full flex-1">{children}</div>
       </div>
     </>
   );

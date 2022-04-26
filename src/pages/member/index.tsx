@@ -1,3 +1,4 @@
 import Overview from "./overview";
+import Transactions from "./transactions";
 
-export { Overview };
+export { Overview, Transactions };

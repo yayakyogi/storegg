@@ -194,7 +194,6 @@ const ElementPage = () => {
               }`}
               text={item[0]}
               href={`#`}
-              color={`${item[0] === menuActive ? "black" : "grey"}`}
             />
           );
         })}

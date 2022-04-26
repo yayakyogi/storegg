@@ -12,7 +12,7 @@ const Button = ({
   isBlock,
 }: ButtonProps) => {
   const classNames = [
-    "rounded-full hover:shadow-md focus:ring-2 focus:ring-white duration-200 ease-in-out font-medium",
+    "rounded-full hover:shadow focus:ring-2 focus:ring-white duration-200 ease-in-out font-medium",
     className,
   ];
 

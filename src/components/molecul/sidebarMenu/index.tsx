@@ -14,7 +14,6 @@ interface SidebarMenuProps {
   href: string;
   text: string;
   className: string;
-  color: "black" | "grey";
   onClick: Function;
   style?: CSSProperties;
 }
@@ -24,11 +23,10 @@ const SidebarMenu = ({
   className,
   text,
   style,
-  color,
   onClick,
 }: SidebarMenuProps) => {
   const classNames = [
-    "w-full flex justify-start items-center px-2 py-1 my-5",
+    "w-full flex justify-start items-center px-2 py-4 mb-1",
     className,
   ];
 
@@ -63,7 +61,7 @@ const SidebarMenu = ({
         onClickAction={onClick}
       >
         <Icon />
-        <Text type="fs-18" weight="medium" text={text} color={color} />
+        {text}
       </Button>
     </>
   );

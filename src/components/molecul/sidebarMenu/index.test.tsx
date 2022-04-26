@@ -12,7 +12,6 @@ describe("Testing sidebar menu", () => {
         <SidebarMenu
           className="active border-r-4 border-blue"
           href="/"
-          color="black"
           text="Overview"
           onClick={onClick}
         />
