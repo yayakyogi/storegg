@@ -11,7 +11,7 @@ const Sidebar = () => {
     ["Card", "/card"],
     ["Rewards", "/rewards"],
     ["Settings", "/settings"],
-    ["Log Out", "/logout"],
+    ["Log Out", "/login"],
   ];
   return (
     <>
