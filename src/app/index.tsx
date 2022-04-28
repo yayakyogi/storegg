@@ -1,4 +1,9 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+  Navigate,
+} from "react-router-dom";
 import "./index.css";
 import {
   ElementPage,
@@ -10,6 +15,7 @@ import {
   Register,
   RegisterPhoto,
   RegisterSuccess,
+  Page404,
 } from "../pages";
 
 function App() {
@@ -26,6 +32,8 @@ function App() {
           <Route path="/register" element={<Register />} />
           <Route path="/register-photo" element={<RegisterPhoto />} />
           <Route path="/register-success" element={<RegisterSuccess />} />
+          <Route path="/404" element={<Page404 />} />
+          <Route path="*" element={<Navigate to="/404" />} />
         </Routes>
       </Router>
     </>
