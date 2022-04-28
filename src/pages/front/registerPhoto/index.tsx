@@ -9,7 +9,7 @@ const RegisterPhoto = () => {
         <div className="flex justify-center">
           <input type="file" id="inputFile" className="hidden" name="img" />
           <label htmlFor="inputFile">
-            <div className="w-24 h-24 p-8 rounded-full bg-gray2 ml-3 hover:cursor-pointer">
+            <div className="w-28 h-28 p-8 rounded-full bg-gray2 ml-3 hover:cursor-pointer">
               <Image url={IcUpload} alt="ic-update" />
             </div>
           </label>

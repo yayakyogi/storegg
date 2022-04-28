@@ -6,7 +6,7 @@ const Page404 = () => {
     <>
       <MessagePage
         title="Oops! Not Found"
-        message="Halaman yang anda kunjungi sudah tidak tersedia pada sistem kami"
+        message="Halaman yang anda kunjungi tidak tersedia pada sistem kami"
         href="/"
         imageUrl={Image404}
         buttonTitle="Home Page"

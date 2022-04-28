@@ -78,7 +78,7 @@ const Register = () => {
             type="link"
             href="/register-photo"
             onClickAction={saveData}
-            className="px-5 py-3 lg:py-4 bg-purple text-white mt-8 font-medium lg:mt-5 text-center block w-full rounded-full"
+            className="px-5 py-3 lg:py-4 bg-purple text-white mt-8 font-medium text-center block w-full rounded-full"
           >
             Continue
           </Button>
@@ -87,7 +87,7 @@ const Register = () => {
           type="link"
           href="/login"
           onClickAction={saveData}
-          className="px-5 py-3 lg:py-4 bg-gray2 text-dark font-medium mt-3 lg:mt-5 text-center block w-full rounded-full"
+          className="px-5 py-3 lg:py-4 bg-gray2 text-dark font-medium mt-3 text-center block w-full rounded-full"
         >
           Sign In
         </Button>
