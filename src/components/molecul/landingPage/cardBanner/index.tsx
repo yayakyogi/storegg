@@ -1,6 +1,6 @@
-import { Image, Text } from "../../atom";
-import { ImageAvatar, ImageNewGame } from "../../../assets/img";
-import { IcStar } from "../../../assets/icon";
+import { Image, Text } from "../../../atom";
+import { ImageAvatar, ImageNewGame } from "../../../../assets/img";
+import { IcStar } from "../../../../assets/icon";
 
 const CardTestimoni = () => {
   return (

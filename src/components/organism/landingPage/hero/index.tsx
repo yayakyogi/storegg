@@ -7,11 +7,8 @@ const Hero = () => {
     <>
       <div className="mt-12 lg:flex justify-between items-center">
         <div className="lg:max-w-2xl">
-          <h1 className="text-lg text-grey mb-3">Hello gamers</h1>
-          <h1
-            className="text-4xl lg:text-6xl font-bold text-black pr-14"
-            style={{ lineHeight: 1.2 }}
-          >
+          <h1 className="lg:text-lg text-grey mb-3">Hello gamers</h1>
+          <h1 className="text-5xl lg:text-6xl font-bold text-black pr-12 leading-snug lg:leading-tight">
             Topup & Get a{" "}
             <span className="lg:border-b-8 lg:inline-block lg:h-16 lg:w-36 lg:text-right border-blue">
               New
@@ -21,11 +18,11 @@ const Hero = () => {
             </span>{" "}
             in Gaming
           </h1>
-          <p className="mt-7 lg:mt-10 text-md lg:text-xl font-normal text-black pr-24 lg:pr-28">
+          <p className="mt-7 lg:mt-10 text-lg lg:text-2xl font-normal text-black pr-14 lg:pr-28">
             Kami menyediakan jutaan cara untuk membantu players menjadi pemenang
             sejati
           </p>
-          <div className="mt-10 lg:flex justify-start items-center">
+          <div className="mt-14 lg:flex justify-start items-center">
             <Button
               type="link"
               href="/"

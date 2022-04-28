@@ -6,7 +6,8 @@ import ItemTable from "./itemTable";
 import ButtonFilter from "./buttonFilter";
 import ItemDetail from "./itemDetail";
 import ItemDetailLabel from "./itemDetailLabel";
-import { CardTestimoni, CardNewGame } from "./frontCardBanner";
+import { CardTestimoni, CardNewGame } from "./landingPage/cardBanner";
+import CardProcedure from "./landingPage/cardProcedure";
 
 export {
   SidebarUser,
@@ -19,4 +20,5 @@ export {
   ItemDetailLabel,
   CardTestimoni,
   CardNewGame,
+  CardProcedure,
 };
