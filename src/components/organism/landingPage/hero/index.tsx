@@ -1,8 +1,8 @@
-import { Button, Image } from "../../atom";
-import { CardTestimoni, CardNewGame } from "../../molecul";
-import { ImageLandingPage } from "../../../assets/img";
+import { Button, Image } from "../../../atom";
+import { CardTestimoni, CardNewGame } from "../../../molecul";
+import { ImageLandingPage } from "../../../../assets/img";
 
-const FrontHero = () => {
+const Hero = () => {
   return (
     <>
       <div className="mt-12 lg:flex justify-between items-center">
@@ -59,4 +59,4 @@ const FrontHero = () => {
     </>
   );
 };
-export default FrontHero;
+export default Hero;
