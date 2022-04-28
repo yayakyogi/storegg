@@ -16,6 +16,7 @@ import {
   RegisterPhoto,
   RegisterSuccess,
   Page404,
+  LandingPage,
 } from "../pages";
 
 function App() {
@@ -23,7 +24,7 @@ function App() {
     <>
       <Router>
         <Routes>
-          <Route path="/" element={<ElementPage />} />
+          <Route path="/" element={<LandingPage />} />
           <Route path="/member" element={<Overview />} />
           <Route path="/transactions" element={<Transactions />} />
           <Route path="/details/:id" element={<Details />} />

@@ -14,16 +14,18 @@ module.exports = {
       yellow: "#FEBD57",
       green: "#1ABC9C",
     },
-    fontSize: {
-      xs: "0.75rem", // 12px
-      sm: "0.875rem", // 14px
-      base: "1rem", // 16px
-      lg: "1.125rem", // 18px
-      xl: "1.25rem", // 20px
-      "2xl": "1.375rem", // 22px
-      "3xl": "2rem", // 32px
-      "4xl": "2.625rem", // 42px
-    },
+    extends:{
+      fontSize: {
+        xs: "0.75rem", // 12px
+        sm: "0.875rem", // 14px
+        base: "1rem", // 16px
+        lg: "1.125rem", // 18px
+        xl: "1.25rem", // 20px
+        "2xl": "1.375rem", // 22px
+        "3xl": "2rem", // 32px
+        "4xl": "2.625rem", // 42px
+      },
+    }
   },
   plugins: [],
 };
