@@ -1,8 +1,10 @@
 import { ChangeEvent, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { Logo } from "../../../assets/icon";
 import { Button, Image, InputText, Text } from "../../../components";
 
 const Register = () => {
+  const navigate = useNavigate();
   const [data, setData] = useState({
     fullName: "",
     email: "",
@@ -11,6 +13,7 @@ const Register = () => {
   const saveData = (e: ChangeEvent<HTMLFormElement>) => {
     e.preventDefault();
 
+    navigate("/register-photo");
     if (data.password.length >= 8 && data.fullName.length >= 4) {
       setData({ fullName: "", email: "", password: "" });
     }
@@ -73,7 +76,7 @@ const Register = () => {
           />
           <Button
             type="link"
-            href="/register"
+            href="/register-photo"
             onClickAction={saveData}
             className="px-5 py-3 lg:py-4 bg-purple text-white mt-8 font-medium lg:mt-5 text-center block w-full rounded-full"
           >
