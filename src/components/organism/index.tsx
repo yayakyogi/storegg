@@ -7,6 +7,7 @@ import Navbar from "./landingPage/navbar";
 import Procedures from "./landingPage/procedures";
 import Feature from "./landingPage/feature";
 import Reached from "./landingPage/reached";
+import Story from "./landingPage/story";
 
 export {
   Sidebar,
@@ -18,4 +19,5 @@ export {
   Procedures,
   Feature,
   Reached,
+  Story,
 };

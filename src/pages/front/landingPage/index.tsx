@@ -4,6 +4,7 @@ import {
   Navbar,
   Procedures,
   Reached,
+  Story,
 } from "../../../components";
 
 const LandingPage = () => {
@@ -15,6 +16,7 @@ const LandingPage = () => {
         <Procedures />
         <Feature />
         <Reached />
+        <Story />
       </div>
     </>
   );
