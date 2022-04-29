@@ -1,4 +1,4 @@
-import { Hero, Navbar, Procedurs } from "../../../components";
+import { Feature, Hero, Navbar, Procedures } from "../../../components";
 
 const LandingPage = () => {
   return (
@@ -6,7 +6,8 @@ const LandingPage = () => {
       <div className="px-4 lg:px-32 py-7 lg:py-10 bg-white">
         <Navbar />
         <Hero />
-        <Procedurs />
+        <Procedures />
+        <Feature />
       </div>
     </>
   );

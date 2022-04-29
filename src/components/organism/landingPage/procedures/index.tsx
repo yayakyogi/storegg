@@ -1,13 +1,18 @@
 import { Icon, Icon1, Icon2 } from "../../../../assets/icon";
+import { Text } from "../../../atom";
 import { CardProcedure } from "../../../molecul";
 
 const Procedurs = () => {
   return (
     <>
-      <div className="flex justify-center mt-28 mb-8">
-        <h1 className="text-3xl lg:text-4xl font-bold text-black max-w-md text-center leading-normal lg:leading-relaxed">
-          It’s Really That Easy to Win the Game
-        </h1>
+      <div className="flex justify-center text-center mt-28 mb-8">
+        <Text
+          type="fs-42"
+          weight="bold"
+          text="It’s Really That Easy to Win the Game"
+          color="black"
+          style={{ maxWidth: 300 }}
+        />
       </div>
       <div className="lg:flex justify-between items-center">
         <CardProcedure

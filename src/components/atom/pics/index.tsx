@@ -19,6 +19,9 @@ const Image = ({ type, url, alt, style }: ImageProps) => {
     case "imageTable":
       className.push("w-24 h-16 rounded-2xl");
       break;
+    case "imageFeature":
+      className.push("w-52 h-72");
+      break;
     default:
       className.push("w-100 h-100");
       break;

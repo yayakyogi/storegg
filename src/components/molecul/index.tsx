@@ -8,6 +8,7 @@ import ItemDetail from "./itemDetail";
 import ItemDetailLabel from "./itemDetailLabel";
 import { CardTestimoni, CardNewGame } from "./landingPage/cardBanner";
 import CardProcedure from "./landingPage/cardProcedure";
+import CardFeature from "./landingPage/cardFeature";
 
 export {
   SidebarUser,
@@ -21,4 +22,5 @@ export {
   CardTestimoni,
   CardNewGame,
   CardProcedure,
+  CardFeature,
 };

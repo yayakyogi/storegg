@@ -4,7 +4,8 @@ import TableTransactions from "./tableTransactions";
 import TransactionDetails from "./transactionDetails";
 import Hero from "./landingPage/hero";
 import Navbar from "./landingPage/navbar";
-import Procedurs from "./landingPage/procedures";
+import Procedures from "./landingPage/procedures";
+import Feature from "./landingPage/feature";
 
 export {
   Sidebar,
@@ -13,5 +14,6 @@ export {
   TransactionDetails,
   Hero,
   Navbar,
-  Procedurs,
+  Procedures,
+  Feature,
 };
