@@ -8,6 +8,7 @@ import Procedures from "./landingPage/procedures";
 import Feature from "./landingPage/feature";
 import Reached from "./landingPage/reached";
 import Story from "./landingPage/story";
+import FrontFooter from "./frontFooter";
 
 export {
   Sidebar,
@@ -20,4 +21,5 @@ export {
   Feature,
   Reached,
   Story,
+  FrontFooter,
 };

@@ -1,5 +1,6 @@
 import {
   Feature,
+  FrontFooter,
   Hero,
   Navbar,
   Procedures,
@@ -18,6 +19,7 @@ const LandingPage = () => {
         <Reached />
         <Story />
       </div>
+      <FrontFooter />
     </>
   );
 };
