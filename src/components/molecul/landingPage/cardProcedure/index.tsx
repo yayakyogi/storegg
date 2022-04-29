@@ -9,7 +9,7 @@ interface CardProcedureProps {
 const CardProcedure = ({ icon, title, description }: CardProcedureProps) => {
   return (
     <>
-      <div className="p-7 rounded-3xl bg-gray ring-1 ring-gray2 w-96 h-64 mb-5">
+      <div className="p-7 rounded-3xl bg-gray w-full lg:w-1/3 h-64 mb-5">
         <div className="w-20 h-20 rounded-full mb-8">
           <Image url={icon} alt={icon} />
         </div>
