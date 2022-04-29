@@ -1,5 +1,5 @@
 import { Logo } from "../../../assets/icon";
-import { Button, Image, Text } from "../../atom";
+import { Button, Text } from "../../atom";
 
 const FrontFooter = () => {
   return (
