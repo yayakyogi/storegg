@@ -9,6 +9,7 @@ import ItemDetailLabel from "./itemDetailLabel";
 import { CardTestimoni, CardNewGame } from "./landingPage/cardBanner";
 import CardProcedure from "./landingPage/cardProcedure";
 import CardFeature from "./landingPage/cardFeature";
+import ItemReached from "./landingPage/itemReached";
 
 export {
   SidebarUser,
@@ -23,4 +24,5 @@ export {
   CardNewGame,
   CardProcedure,
   CardFeature,
+  ItemReached,
 };

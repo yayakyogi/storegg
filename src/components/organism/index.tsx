@@ -6,6 +6,7 @@ import Hero from "./landingPage/hero";
 import Navbar from "./landingPage/navbar";
 import Procedures from "./landingPage/procedures";
 import Feature from "./landingPage/feature";
+import Reached from "./landingPage/reached";
 
 export {
   Sidebar,
@@ -16,4 +17,5 @@ export {
   Navbar,
   Procedures,
   Feature,
+  Reached,
 };

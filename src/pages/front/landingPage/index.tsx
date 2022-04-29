@@ -1,4 +1,10 @@
-import { Feature, Hero, Navbar, Procedures } from "../../../components";
+import {
+  Feature,
+  Hero,
+  Navbar,
+  Procedures,
+  Reached,
+} from "../../../components";
 
 const LandingPage = () => {
   return (
@@ -8,6 +14,7 @@ const LandingPage = () => {
         <Hero />
         <Procedures />
         <Feature />
+        <Reached />
       </div>
     </>
   );
