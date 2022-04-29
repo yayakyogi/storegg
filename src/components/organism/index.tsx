@@ -3,7 +3,7 @@ import TopUpCategories from "./topUpCategories";
 import TableTransactions from "./tableTransactions";
 import TransactionDetails from "./transactionDetails";
 import Hero from "./landingPage/hero";
-import Navbar from "./landingPage/navbar";
+import Navbar from "./navbar";
 import Procedures from "./landingPage/procedures";
 import Feature from "./landingPage/feature";
 import Reached from "./landingPage/reached";

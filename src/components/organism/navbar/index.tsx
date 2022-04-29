@@ -1,5 +1,5 @@
-import { Logo } from "../../../../assets/icon";
-import { Button, Image } from "../../../atom";
+import { Logo } from "../../../assets/icon";
+import { Button, Image } from "../../atom";
 
 const Navbar = () => {
   return (
