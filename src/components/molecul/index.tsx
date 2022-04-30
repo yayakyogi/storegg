@@ -10,7 +10,7 @@ import { CardTestimoni, CardNewGame } from "./landingPage/cardBanner";
 import CardProcedure from "./landingPage/cardProcedure";
 import CardFeature from "./landingPage/cardFeature";
 import ItemReached from "./landingPage/itemReached";
-import TitlePage from "./detailPage/titlePage";
+import TitlePage from "./front/titlePage";
 import GameDetail from "./front/gameDetail";
 import CardTopUp from "./detailPage/cardTopUp";
 import CardPayment from "./detailPage/cardPayment";

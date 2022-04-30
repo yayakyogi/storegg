@@ -62,7 +62,10 @@ const DetailPage = () => {
     <>
       <div className="px-4 lg:px-32 py-7 lg:py-10 bg-white">
         <Navbar />
-        <TitlePage />
+        <TitlePage
+          title="Top Up"
+          subTitle="Perkuat akun dan jadilah pemenang"
+        />
         <div className="flex justify-start mt-12">
           <div className="max-w-xs hidden lg:block">
             <Image

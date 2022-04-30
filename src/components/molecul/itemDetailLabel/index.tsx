@@ -12,7 +12,7 @@ const ItemDetailLabel = ({ label, value }: ItemDetailLabelProps) => {
         <Text type="fs-18" weight="regular" text={label} color="black" />
         <Text
           type="fs-18"
-          weight="medium"
+          weight={label.toLowerCase() === "total" ? "bold" : "medium"}
           text={value}
           color={label.toLowerCase() === "total" ? "purple" : "black"}
         />

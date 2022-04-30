@@ -1,13 +1,18 @@
 import { Text } from "../../../atom";
 
-const TitlePage = () => {
+interface TitlePageProps {
+  title: string;
+  subTitle: string;
+}
+
+const TitlePage = ({ title, subTitle }: TitlePageProps) => {
   return (
     <>
-      <Text type="fs-42" weight="bold" text="Top Up" color="black" />
+      <Text type="fs-42" weight="bold" text={title} color="black" />
       <Text
         type="fs-20"
         weight="regular"
-        text="Perkuat akun dan jadilah pemenang"
+        text={subTitle}
         color="black"
         style={{ marginTop: 10 }}
       />

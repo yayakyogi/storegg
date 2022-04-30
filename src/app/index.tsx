@@ -17,6 +17,7 @@ import {
   RegisterSuccess,
   Page404,
   LandingPage,
+  CheckoutPage,
 } from "../pages";
 import DetailPage from "../pages/front/detailPage";
 
@@ -35,6 +36,7 @@ function App() {
           <Route path="/register-photo" element={<RegisterPhoto />} />
           <Route path="/register-success" element={<RegisterSuccess />} />
           <Route path="/game/:id" element={<DetailPage />} />
+          <Route path="/checkout" element={<CheckoutPage />} />
           <Route path="/404" element={<Page404 />} />
           <Route path="*" element={<Navigate to="/404" />} />
         </Routes>
