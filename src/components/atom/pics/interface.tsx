@@ -5,8 +5,10 @@ type imageType =
   | "imageIcon"
   | "imageListTransaction"
   | "imageDetailTransaction"
+  | "imageDetailTransactionLarge"
   | "imageTable"
-  | "imageFeature";
+  | "imageFeature"
+  | "imageGameDetail";
 export interface ImageProps {
   type?: imageType;
   url: string;

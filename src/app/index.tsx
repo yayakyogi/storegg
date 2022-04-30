@@ -18,6 +18,7 @@ import {
   Page404,
   LandingPage,
 } from "../pages";
+import DetailPage from "../pages/front/detailPage";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
           <Route path="/register" element={<Register />} />
           <Route path="/register-photo" element={<RegisterPhoto />} />
           <Route path="/register-success" element={<RegisterSuccess />} />
+          <Route path="/game/:id" element={<DetailPage />} />
           <Route path="/404" element={<Page404 />} />
           <Route path="*" element={<Navigate to="/404" />} />
         </Routes>

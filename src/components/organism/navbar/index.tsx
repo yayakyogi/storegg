@@ -6,11 +6,11 @@ const Navbar = () => {
     <>
       <div className="flex justify-between items-center mb-12 lg:mb-28">
         <Image type="imageIcon" url={Logo} alt="logo" />
-        <div className="lg:pl-32 lg:w-3/6 hidden lg:flex justify-between items-center">
+        <div className="lg:pl-32 md:w-3/4 lg:w-10/12 xl:w-3/6 hidden md:flex justify-between items-center">
           <Button
             type="link"
             href="/"
-            className="font-medium text-lg text-black"
+            className="font-medium text-lg text-grey hover:text-black"
           >
             Home
           </Button>
