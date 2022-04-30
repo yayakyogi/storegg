@@ -20,6 +20,7 @@ import {
   CheckoutPage,
 } from "../pages";
 import DetailPage from "../pages/front/detailPage";
+import CheckoutSuccess from "../pages/front/checkoutSuccess";
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
           <Route path="/register-success" element={<RegisterSuccess />} />
           <Route path="/game/:id" element={<DetailPage />} />
           <Route path="/checkout" element={<CheckoutPage />} />
+          <Route path="/checkout-success" element={<CheckoutSuccess />} />
           <Route path="/404" element={<Page404 />} />
           <Route path="*" element={<Navigate to="/404" />} />
         </Routes>

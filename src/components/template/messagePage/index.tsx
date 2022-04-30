@@ -6,6 +6,9 @@ interface MessagePageProps {
   message: string;
   href: string;
   buttonTitle: string;
+  isSuccessCheckout?: Boolean;
+  href2?: string;
+  buttonTitle2?: string;
 }
 
 const MessagePage = ({
@@ -14,6 +17,9 @@ const MessagePage = ({
   message,
   href,
   buttonTitle,
+  isSuccessCheckout,
+  href2,
+  buttonTitle2,
 }: MessagePageProps) => {
   return (
     <>
@@ -43,6 +49,15 @@ const MessagePage = ({
           >
             {buttonTitle}
           </Button>
+          {isSuccessCheckout && (
+            <Button
+              type="link"
+              href={href2}
+              className="px-5 py-3 bg-gray2 text-black mt-3 font-medium text-center block w-full lg:w-52 rounded-full lg:mx-auto"
+            >
+              {buttonTitle2}
+            </Button>
+          )}
         </div>
       </div>
     </>
