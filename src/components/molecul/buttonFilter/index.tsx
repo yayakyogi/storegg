@@ -9,7 +9,7 @@ const ButtonFilter = () => {
         <Button
           type="secondary"
           onClickAction={onClick}
-          className="py-2 lg:py-2.5 px-4 lg:px-10 mr-2 bg-black text-white text-sm font-normal"
+          className="py-2 lg:py-2.5 px-4 lg:px-10 mr-2 bg-black text-gray text-sm font-normal"
         >
           All trx
         </Button>

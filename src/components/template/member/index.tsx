@@ -9,8 +9,8 @@ interface MemberTemplateProps {
 const MemberTemplate = ({ children }: MemberTemplateProps) => {
   const onClick = () => {
     const node = document.querySelector(".sidebar");
-    node?.classList.toggle("w-0");
     node?.classList.toggle("w-full");
+    node?.classList.toggle("-translate-x-96");
     const hamburgerButton = document.querySelector(".hamburger-button");
     hamburgerButton?.classList.toggle("hamburger-active");
   };
@@ -22,7 +22,7 @@ const MemberTemplate = ({ children }: MemberTemplateProps) => {
           {children}
         </div>
         <Button
-          className="hamburger-button h-10 w-8 block lg:hidden absolute top-7 right-8 z-10"
+          className="hamburger-button h-10 w-8 block lg:hidden absolute top-8 right-8 z-10"
           onClickAction={onClick}
         >
           <span className="hamburger-line bg-black block rounded-sm transition origin-top-left duration-300 ease-in-out"></span>

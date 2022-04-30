@@ -9,7 +9,8 @@ const Navbar = () => {
     navbar?.classList.toggle("max-h-0");
     navbar?.classList.toggle("max-h-80");
     navbar?.classList.toggle("mt-5");
-    console.log(navbar);
+    const hamburgerButton = document.querySelector(".hamburger-button");
+    hamburgerButton?.classList.toggle("hamburger-active");
   };
 
   return (
@@ -63,16 +64,14 @@ const Navbar = () => {
             Sign In
           </Button>
         </div>
-        <div
-          onClick={onClick}
-          className="absolute top-3 right-3 flex justify-center items-center lg:hidden w-12 h-12 border border-grey rounded-lg bg-white"
+        <Button
+          className="hamburger-button h-10 w-8 block lg:hidden absolute top-3 right-3 z-10"
+          onClickAction={onClick}
         >
-          <div>
-            <span className="block w-7 h-0.5 bg-grey"></span>
-            <span className="block w-7 h-0.5 bg-grey my-1.5"></span>
-            <span className="block w-7 h-0.5 bg-grey"></span>
-          </div>
-        </div>
+          <span className="hamburger-line bg-black block rounded-sm transition origin-top-left duration-300 ease-in-out"></span>
+          <span className="hamburger-line bg-black block rounded-sm my-1.5 transition duration-300 ease-in-out"></span>
+          <span className="hamburger-line bg-black block rounded-sm transition origin-bottom-left duration-300 ease-in-out"></span>
+        </Button>
       </div>
     </>
   );
