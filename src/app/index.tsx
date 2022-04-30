@@ -1,26 +1,25 @@
 import {
   BrowserRouter as Router,
+  Navigate,
   Route,
   Routes,
-  Navigate,
 } from "react-router-dom";
-import "./index.css";
 import {
-  ElementPage,
-  Overview,
-  Transactions,
+  CheckoutPage,
   Details,
-  Settings,
+  LandingPage,
   Login,
+  Overview,
+  Page404,
   Register,
   RegisterPhoto,
   RegisterSuccess,
-  Page404,
-  LandingPage,
-  CheckoutPage,
+  Settings,
+  Transactions,
 } from "../pages";
-import DetailPage from "../pages/front/detailPage";
 import CheckoutSuccess from "../pages/front/checkoutSuccess";
+import DetailPage from "../pages/front/detailPage";
+import "./index.css";
 
 function App() {
   return (
