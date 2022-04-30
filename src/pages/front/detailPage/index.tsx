@@ -1,4 +1,5 @@
-import { ChangeEvent, useState } from "react";
+import { ChangeEvent, useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { ImageThumbnail3 } from "../../../assets/img";
 import {
   CardTopUp,
@@ -14,6 +15,7 @@ import {
 } from "../../../components";
 
 const DetailPage = () => {
+  const navigate = useNavigate();
   const [state, setState] = useState({
     idUser: "",
     bankAccountName: "",
@@ -25,11 +27,19 @@ const DetailPage = () => {
     isChosenPayment: false,
   });
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const onChange = (e: ChangeEvent<HTMLInputElement>) => {
     setState({
       ...state,
       [e.target.name]: e.target.value,
     });
+  };
+
+  const onSubmit = () => {
+    navigate("/checkout");
   };
 
   const onChooseTopUp = (id: number) => {
@@ -134,7 +144,7 @@ const DetailPage = () => {
             </div>
             {/* Form Bank Account Name */}
             <div className="w-full xl:w-1/3 mt-8">
-              <form>
+              <form onSubmit={onSubmit}>
                 <InputText
                   label="Bank Account Name"
                   type="text"
@@ -145,6 +155,7 @@ const DetailPage = () => {
                 />
                 <Button
                   type="submit"
+                  onClickAction={onSubmit}
                   className="w-full lg:w-48 mt-8 py-3 text-center bg-purple text-white"
                 >
                   Continue

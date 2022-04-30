@@ -1,7 +1,11 @@
 import { MessagePage } from "../../../components";
 import { ImageCompletedCheckout } from "../../../assets/img";
+import { useEffect } from "react";
 
 const CheckoutSuccess = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <MessagePage

@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import { Logo } from "../../../assets/icon";
 import { ImageThumbnail3 } from "../../../assets/img";
 import {
@@ -10,6 +12,10 @@ import {
 import { FormatRupiah } from "../../../utils";
 
 const CheckoutPage = () => {
+  const navigate = useNavigate();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <div className="px-3 lg:px-96 bg-white py-8 lg:py-16">
@@ -77,7 +83,7 @@ const CheckoutPage = () => {
         </label>
         <Button
           type="primary"
-          onClickAction={() => console.log("WhatsApp Admin")}
+          onClickAction={() => navigate("/checkout-success")}
           className="px-20 py-3 font-medium text-sm lg:text-lg w-full xl:w-auto"
           style={{ marginTop: 30 }}
         >

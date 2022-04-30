@@ -1,16 +1,18 @@
 import { ChangeEvent, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { Logo } from "../../../assets/icon";
 import { ImageLogin } from "../../../assets/img";
 import { Button, Image, InputText, Text } from "../../../components";
 
 const Login = () => {
+  const navigate = useNavigate();
   const [data, setData] = useState({
     email: "",
     password: "",
   });
   const saveData = (e: ChangeEvent<HTMLFormElement>) => {
     e.preventDefault();
-
+    navigate("/");
     if (data.password.length >= 8) {
       setData({ email: "", password: "" });
     }

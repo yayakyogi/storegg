@@ -1,8 +1,14 @@
+import { useNavigate } from "react-router-dom";
 import { IcUpload } from "../../../assets/icon";
 import { Button, Image, InputSelect, Text } from "../../../components";
 
 const RegisterPhoto = () => {
+  const navigate = useNavigate();
   const onChange = () => {};
+
+  const onSubmit = () => {
+    navigate("/register-success");
+  };
   return (
     <>
       <div className="w-full lg:mx-auto lg:w-2/5 pt-32 lg:pt-40 px-4 lg:px-36">
@@ -28,29 +34,32 @@ const RegisterPhoto = () => {
           color="black"
           style={{ marginBottom: 50, textAlign: "center" }}
         />
-        <InputSelect
-          label="Favorite Game"
-          name="game"
-          onChange={onChange}
-          value=""
-        >
-          <option value="">Select Game</option>
-        </InputSelect>
-        <div className="lg:relative absolute bottom-14 w-full right-0 px-2 lg:px-0">
-          <Button
-            type="submit"
-            className="px-5 py-3 bg-purple text-white mt-8 font-medium lg:mt-24 text-center block w-full rounded-full"
+        <form onSubmit={onSubmit} method="post">
+          <InputSelect
+            label="Favorite Game"
+            name="game"
+            onChange={onChange}
+            value=""
           >
-            Create My Account
-          </Button>
-          <Button
-            type="link"
-            href="/"
-            className="underline block text-center mt-3"
-          >
-            Terms & Conditions
-          </Button>
-        </div>
+            <option value="">Select Game</option>
+          </InputSelect>
+          <div className="lg:relative absolute bottom-14 w-full right-0 px-2 lg:px-0">
+            <Button
+              onClickAction={onSubmit}
+              type="submit"
+              className="px-5 py-3 bg-purple text-white mt-8 font-medium lg:mt-24 text-center block w-full rounded-full"
+            >
+              Create My Account
+            </Button>
+            <Button
+              type="link"
+              href="/"
+              className="underline block text-center mt-3"
+            >
+              Terms & Conditions
+            </Button>
+          </div>
+        </form>
       </div>
     </>
   );

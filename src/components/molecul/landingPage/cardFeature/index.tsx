@@ -18,7 +18,7 @@ const CardFeature = ({ title, category, imageUrl }: CardFeatureProps) => {
         onMouseEnter={() => setHoverState(true)}
         onMouseLeave={() => setHoverState(false)}
       >
-        <Button type="link" href="/" className="rounded-xl">
+        <Button type="link" href="/game/sdasdk" className="rounded-xl">
           <div
             className={`${
               hoverState && "scale-90"
