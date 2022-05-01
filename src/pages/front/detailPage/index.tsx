@@ -164,8 +164,8 @@ const DetailPage = () => {
             </div>
           </div>
         </div>
-        <FrontFooter />
       </div>
+      <FrontFooter />
     </>
   );
 };

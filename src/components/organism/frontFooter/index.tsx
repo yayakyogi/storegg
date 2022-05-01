@@ -99,34 +99,18 @@ const FrontFooter = () => {
             color="black"
             style={{ marginBottom: 12 }}
           />
-          <Text
-            type="fs-20"
-            weight="regular"
-            text="hi@store.gg"
-            color="black"
-            style={{ marginBottom: 4 }}
-          />
-          <Text
-            type="fs-20"
-            weight="regular"
-            text="team@store.gg"
-            color="black"
-            style={{ marginBottom: 4 }}
-          />
-          <Text
-            type="fs-20"
-            weight="regular"
-            text="Pasific 12, Jakarta Selatan"
-            color="black"
-            style={{ marginBottom: 4 }}
-          />
-          <Text
-            type="fs-20"
-            weight="regular"
-            text="021 - 1122 - 9090"
-            color="black"
-            style={{ marginBottom: 4 }}
-          />
+          <p className="block text-sm lg:text-lg text-black mb-2 lg:mb-1.5">
+            hi@store.gg
+          </p>
+          <p className="block text-sm lg:text-lg text-black mb-2 lg:mb-1.5">
+            team@store.gg
+          </p>
+          <p className="block text-sm lg:text-lg text-black mb-2 lg:mb-1.5">
+            Pasific 12, Jakarta Selatan
+          </p>
+          <p className="block text-sm lg:text-lg text-black mb-2 lg:mb-1.5">
+            021 - 1122 - 9090
+          </p>
         </div>
       </div>
     </>
