@@ -14,7 +14,7 @@ const Reached = () => {
   };
   return (
     <>
-      <div className="px-10 lg:px-80 text-center lg:flex justify-between items-center mt-14 lg:mt-28">
+      <div className="px-10 lg:px-40 xl:px-80 text-center lg:flex justify-between items-center mt-14 lg:mt-28">
         <ItemReached label="Players Top Up" value="290M+" />
         <Line />
         <ItemReached label="Games Available" value="12.500" />

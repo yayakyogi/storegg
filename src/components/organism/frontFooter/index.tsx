@@ -35,28 +35,28 @@ const FrontFooter = () => {
           <Button
             type="link"
             href="/"
-            className="block text-lg text-black mb-1.5"
+            className="block text-sm lg:text-lg text-black mb-2 lg:mb-1.5"
           >
             About Us
           </Button>
           <Button
             type="link"
             href="/"
-            className="block text-lg text-purple underline mb-1.5"
+            className="block text-sm lg:text-lg text-purple underline mb-2 lg:mb-1.5"
           >
             Press Realease
           </Button>
           <Button
             type="link"
             href="/"
-            className="block text-lg text-black mb-1.5"
+            className="block text-sm lg:text-lg text-black mb-2 lg:mb-1.5"
           >
             Terms of Use
           </Button>
           <Button
             type="link"
             href="/"
-            className="block text-lg text-black mb-1.5"
+            className="block text-sm lg:text-lg text-black mb-2 lg:mb-1.5"
           >
             Privacy & Policy
           </Button>
@@ -72,21 +72,21 @@ const FrontFooter = () => {
           <Button
             type="link"
             href="/"
-            className="block text-lg text-black mb-1.5"
+            className="block text-sm lg:text-lg text-black mb-2 lg:mb-1.5"
           >
             Refund Policy
           </Button>
           <Button
             type="link"
             href="/"
-            className="block text-lg text-black mb-1.5"
+            className="block text-sm lg:text-lg text-black mb-2 lg:mb-1.5"
           >
             Unlock Rewards
           </Button>
           <Button
             type="link"
             href="/"
-            className="block text-lg text-black mb-1.5"
+            className="block text-sm lg:text-lg text-black mb-2 lg:mb-1.5"
           >
             Live Chatting
           </Button>

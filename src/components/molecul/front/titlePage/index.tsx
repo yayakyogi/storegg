@@ -10,7 +10,7 @@ const TitlePage = ({ title, subTitle }: TitlePageProps) => {
     <>
       <Text type="fs-42" weight="bold" text={title} color="black" />
       <Text
-        type="fs-20"
+        type="fs-18"
         weight="regular"
         text={subTitle}
         color="black"

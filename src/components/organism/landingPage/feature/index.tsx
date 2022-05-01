@@ -20,7 +20,7 @@ const Feature = () => {
           color="black"
         />
       </div>
-      <div className="flex justify-between items-center overflow-x-auto h-80 px-1.5 last:mr-0">
+      <div className="flex justify-between items-center overflow-x-auto lg:h-96 px-1.5 last:mr-0">
         <CardFeature
           title="Super Mechs"
           category="Mobile"

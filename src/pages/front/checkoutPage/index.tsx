@@ -18,7 +18,7 @@ const CheckoutPage = () => {
   }, []);
   return (
     <>
-      <div className="px-3 lg:px-96 bg-white py-8 lg:py-16">
+      <div className="px-5 lg:px-96 bg-white py-8 lg:py-16">
         <Image
           type="imageIcon"
           url={Logo}
@@ -84,7 +84,7 @@ const CheckoutPage = () => {
         <Button
           type="primary"
           onClickAction={() => navigate("/checkout-success")}
-          className="px-20 py-3 font-medium text-sm lg:text-lg w-full xl:w-auto"
+          className="px-20 py-4 lg:py-3 font-medium text-lg w-full xl:w-auto"
           style={{ marginTop: 30 }}
         >
           Confirm Payment

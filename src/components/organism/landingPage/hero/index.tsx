@@ -5,10 +5,10 @@ import { ImageLandingPage } from "../../../../assets/img";
 const Hero = () => {
   return (
     <>
-      <div className="mt-12 lg:flex justify-between items-center lg:px-52">
+      <div className="mt-12 lg:flex justify-between items-center lg:px-0 2xl:px-48">
         <div className="lg:max-w-2xl">
           <h1 className="lg:text-lg text-grey mb-3">Hello gamers</h1>
-          <h1 className="text-4xl lg:text-5xl font-bold text-black pr-12 leading-snug lg:leading-tight">
+          <h1 className="text-5xl font-bold text-black pr-0 lg:pr-12 leading-snug lg:leading-tight">
             Topup & Get a{" "}
             <span className="lg:border-b-8 lg:inline-block lg:h-14 lg:w-28 lg:text-right border-blue">
               New
@@ -22,7 +22,7 @@ const Hero = () => {
             Kami menyediakan jutaan cara untuk membantu players menjadi pemenang
             sejati
           </p>
-          <div className="mt-12 lg:flex justify-start items-center">
+          <div className="mt-20 lg:mt-12 lg:flex justify-start items-center">
             <Button
               type="link"
               href="/"

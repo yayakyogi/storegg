@@ -12,7 +12,7 @@ const CardFeature = ({ title, category, imageUrl }: CardFeatureProps) => {
   return (
     <>
       <div
-        className={`flex-shrink-0 mr-11 lg:mr-0 relative rounded-2xl border-4 box-border duration-300 transition-all ease-in-out ${
+        className={`flex-shrink-0 mr-11 lg:mr-5 relative rounded-2xl border-4 box-border duration-300 transition-all ease-in-out ${
           hoverState ? " border-black scale-105" : "border-white scale-100"
         }`}
         onMouseEnter={() => setHoverState(true)}

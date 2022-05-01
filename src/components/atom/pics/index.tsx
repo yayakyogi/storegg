@@ -8,7 +8,7 @@ const Image = ({ type, url, alt, style }: ImageProps) => {
       className.push("w-24 h-24 rounded-full");
       break;
     case "imageIcon":
-      className.push("w-16 h-16 rounded-full");
+      className.push("w-14 h-14 lg:w-16 lg:h-16 rounded-full");
       break;
     case "imageListTransaction":
       className.push("w-20 h-14 rounded-2xl");

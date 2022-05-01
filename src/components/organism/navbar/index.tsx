@@ -19,47 +19,47 @@ const Navbar = () => {
         <Image type="imageIcon" url={Logo} alt="logo" />
         <div
           id="navbar"
-          className={`lg:pl-32 w-full md:w-3/4 lg:w-10/12 xl:w-3/6 flex flex-col lg:flex-row justify-between items-start lg:items-center lg:mt-0 max-h-0 opacity-0 -translate-x-96 lg:h-auto lg:opacity-100 lg:translate-x-0 transition-all ease-in-out duration-500`}
+          className="lg:pl-10 2xl:pl-32 w-full md:w-3/4 lg:w-10/12 xl:w-3/6 flex flex-col lg:flex-row justify-between items-start lg:items-center lg:mt-0 max-h-0 opacity-0 -translate-x-96 lg:h-auto lg:opacity-100 lg:translate-x-0 transition-all ease-in-out duration-500 "
         >
           <Button
             type="link"
             href="/"
-            className="font-regular text-lg text-grey hover:text-black py-3 lg:py-0 w-full lg:w-auto"
+            className="font-regular text-sm lg:text-lg text-grey hover:text-black py-3 lg:py-0 w-full lg:w-auto"
           >
             Home
           </Button>
           <Button
             type="link"
             href="/games"
-            className="font-regular text-lg text-grey hover:text-black py-3 lg:py-0 w-full lg:w-auto"
+            className="font-regular text-sm lg:text-lg text-grey hover:text-black py-3 lg:py-0 w-full lg:w-auto"
           >
             Games
           </Button>
           <Button
             type="link"
             href="/rewards"
-            className="font-regular text-lg text-grey hover:text-black py-3 lg:py-0 w-full lg:w-auto"
+            className="font-regular text-sm lg:text-lg text-grey hover:text-black py-3 lg:py-0 w-full lg:w-auto"
           >
             Rewards
           </Button>
           <Button
             type="link"
             href="/discover"
-            className="font-regular text-lg text-grey hover:text-black py-3 lg:py-0 w-full lg:w-auto"
+            className="font-regular text-sm lg:text-lg text-grey hover:text-black py-3 lg:py-0 w-full lg:w-auto"
           >
             Discover
           </Button>
           <Button
             type="link"
             href="/global-rank"
-            className="font-regular text-lg text-grey hover:text-black py-3 lg:py-0 w-full lg:w-auto"
+            className="font-regular text-sm lg:text-lg text-grey hover:text-black py-3 lg:py-0 w-full lg:w-auto"
           >
             Global Rank
           </Button>
           <Button
             type="link"
             href="/login"
-            className="font-regular mt-3 lg:mt-0 w-full lg:w-auto text-center text-lg text-black px-8 py-2.5 rounded-full bg-gray2 hover:bg-black hover:text-white transition ease-in-out duration-300"
+            className="font-regular mt-3 lg:mt-0 w-full lg:w-auto text-center text-sm lg:text-lg text-black px-8 py-2.5 rounded-full bg-gray2 hover:bg-black hover:text-white transition ease-in-out duration-300"
           >
             Sign In
           </Button>
