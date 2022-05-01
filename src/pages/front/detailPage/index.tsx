@@ -70,7 +70,7 @@ const DetailPage = () => {
 
   return (
     <>
-      <div className="px-4 lg:px-32 py-7 lg:py-10 bg-white">
+      <div className="px-4 lg:px-32 pt-7 pb-10 lg:py-10 bg-white">
         <Navbar />
         <TitlePage
           title="Top Up"
