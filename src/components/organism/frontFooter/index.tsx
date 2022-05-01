@@ -4,7 +4,7 @@ import { Button, Text } from "../../atom";
 const FrontFooter = () => {
   return (
     <>
-      <div className="mt-20 flex flex-wrap justify-between py-14 lg:py-20 px-4 lg:px-32 bg-gray">
+      <div className="mt-20 flex flex-wrap justify-between py-14 lg:py-20 px-4 lg:px-32 bg-gray2">
         <div className="text-center lg:text-left lg:mx-0 px-8">
           <img src={Logo} alt="logo" className="mx-auto lg:mx-0 w-16 h-16" />
           <div className="max-w-xs lg:pr-10">

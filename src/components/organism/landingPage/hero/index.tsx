@@ -22,7 +22,7 @@ const Hero = () => {
             Kami menyediakan jutaan cara untuk membantu players menjadi pemenang
             sejati
           </p>
-          <div className="mt-20 lg:mt-12 lg:flex justify-start items-center">
+          <div className="mt-16 lg:mt-12 lg:flex justify-start items-center">
             <Button
               type="link"
               href="/"
