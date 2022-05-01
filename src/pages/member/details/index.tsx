@@ -11,7 +11,7 @@ const Details = () => {
           weight="bold"
           text={`Details #${id}`}
           color="black"
-          style={{ marginBottom: 30 }}
+          style={{ marginBottom: 50 }}
         />
         <TransactionDetails />
       </MemberTemplate>

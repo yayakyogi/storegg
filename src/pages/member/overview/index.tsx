@@ -15,7 +15,7 @@ const Overview = () => {
             weight="bold"
             text="Overview"
             color="black"
-            style={{ marginBottom: 30 }}
+            style={{ marginBottom: 50 }}
           />
           <TopUpCategories
             spentDekstopGame={1200000}

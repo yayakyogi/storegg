@@ -8,7 +8,7 @@ import {
   IcSetting,
   IcTransaction,
 } from "../../../utils";
-import { Button, Text } from "../../atom";
+import { Button } from "../../atom";
 
 interface SidebarMenuProps {
   href: string;
@@ -26,7 +26,7 @@ const SidebarMenu = ({
   onClick,
 }: SidebarMenuProps) => {
   const classNames = [
-    "w-full flex justify-start items-center px-2 py-4 mb-1",
+    "w-full flex justify-start items-center px-2 py-3 lg:py-4 mb-1",
     className,
   ];
 

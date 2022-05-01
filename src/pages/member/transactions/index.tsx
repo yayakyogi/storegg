@@ -10,7 +10,7 @@ const Transactions = () => {
           weight="bold"
           text="My Transactions"
           color="black"
-          style={{ marginBottom: 30 }}
+          style={{ marginBottom: 50 }}
         />
         <Text type="fs-18" weight="regular" text="You're spent" color="grey" />
         <Text

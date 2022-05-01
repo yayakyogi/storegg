@@ -37,7 +37,7 @@ const Settings = () => {
           weight="bold"
           text="Settings"
           color="black"
-          style={{ marginBottom: 30 }}
+          style={{ marginBottom: 50 }}
         />
         <div className="w-full lg:w-3/4 xl:w-5/12 bg-white px-2 py-5 lg:p-10 rounded-xl shadow-sm">
           <div className="flex items-center mb-5">

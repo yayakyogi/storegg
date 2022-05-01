@@ -31,7 +31,7 @@ const Sidebar = () => {
               <SidebarMenu
                 key={key}
                 onClick={() => setMenuActive(item[0])}
-                className="active hover:border-r-4 hover:border-blue text-grey font-semibold text-lg hover:bg-gray hover:text-black"
+                className="active hover:border-r-4 hover:border-blue text-grey font-semibold text-sm lg:text-lg hover:bg-gray hover:text-black"
                 text={item[0]}
                 href={item[1]}
               />
@@ -39,7 +39,7 @@ const Sidebar = () => {
           })}
         </div>
         {/* Sidebar pop */}
-        <div className="px-7 py-12">
+        <div className="px-7 mt-10">
           <SidebarPop />
         </div>
       </div>
