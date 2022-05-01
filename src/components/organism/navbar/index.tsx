@@ -16,7 +16,9 @@ const Navbar = () => {
   return (
     <>
       <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center mb-12 lg:mb-28 relative z-20">
-        <Image type="imageIcon" url={Logo} alt="logo" />
+        <Button type="link" href="/">
+          <Image type="imageIcon" url={Logo} alt="logo" />
+        </Button>
         <div
           id="navbar"
           className="lg:pl-10 2xl:pl-32 w-full md:w-3/4 lg:w-10/12 xl:w-3/6 flex flex-col lg:flex-row justify-between items-start lg:items-center lg:mt-0 max-h-0 opacity-0 -translate-x-96 lg:h-auto lg:opacity-100 lg:translate-x-0 transition-all ease-in-out duration-500 "
