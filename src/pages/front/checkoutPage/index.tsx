@@ -2,13 +2,7 @@ import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { Logo } from "../../../assets/icon";
 import { ImageThumbnail3 } from "../../../assets/img";
-import {
-  Button,
-  Image,
-  ItemDetailLabel,
-  Text,
-  TitlePage,
-} from "../../../components";
+import { Button, Image, ItemDetailLabel, TitlePage } from "../../../components";
 import { FormatRupiah } from "../../../utils";
 
 const CheckoutPage = () => {
@@ -45,12 +39,7 @@ const CheckoutPage = () => {
           </div>
         </div>
         <div className="w-full bg-gray2 my-10" style={{ height: 1 }} />
-        <Text
-          type="fs-32"
-          weight="bold"
-          text="Purchase Details"
-          color="black"
-        />
+        <h1 className="text-lg font-bold lg:text-2xl">Purchase Details</h1>
         <ItemDetailLabel label="Your Game ID" value="masayoshizero" />
         <ItemDetailLabel label="Order ID" value="#GG001" />
         <ItemDetailLabel label="Item" value={`${250} Diamonds`} />
@@ -60,13 +49,9 @@ const CheckoutPage = () => {
           value={`Rp ${FormatRupiah(4228000)}`}
         />
         <ItemDetailLabel label="Total" value={`Rp ${FormatRupiah(55000600)}`} />
-        <Text
-          type="fs-20"
-          weight="bold"
-          text="Payment Informations"
-          color="black"
-          style={{ marginTop: 30 }}
-        />
+        <h1 className="text-lg font-bold lg:text-2xl mt-5">
+          Payment Informations
+        </h1>
         <ItemDetailLabel label="Account Name" value="Masayoshi Angga Zero" />
         <ItemDetailLabel label="Type" value="Worldwide Transfer" />
         <ItemDetailLabel label="Bank Name" value="Mandiri" />
@@ -84,7 +69,7 @@ const CheckoutPage = () => {
         <Button
           type="primary"
           onClickAction={() => navigate("/checkout-success")}
-          className="px-20 py-4 lg:py-3 font-medium text-lg w-full xl:w-auto"
+          className="px-20 py-3.5 lg:py-3 font-medium text-base lg:text-lg w-full xl:w-auto"
           style={{ marginTop: 30 }}
         >
           Confirm Payment
